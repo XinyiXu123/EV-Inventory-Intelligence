@@ -208,6 +208,6 @@ Potential extensions include:
 
 Project Repository: https://github.com/XinyiXu123/EV-Inventory-Intelligence
 
-Live Dashboard: https://wkrawwup.streamlit.app
+Live Dashboard: https://ev-inventory-intelligence-mnlyd4l9nusuarwkrawwup.streamlit.app/
 
 EV Inventory Intelligence — Turning Data into Better Business Decisions.
