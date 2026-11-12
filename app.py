@@ -15,7 +15,7 @@ def load_data():
     parts = pd.read_csv(ROOT / 'parts.csv')
     demand = pd.read_csv(ROOT / 'demand.csv', parse_dates=['week_start'])
     inventory = pd.read_csv(ROOT / 'inventory.csv', parse_dates=['week_start'])
-    original_reorders = pd.read_csv(ROOT / 'data/reorder_recommendations.csv')
+    original_reorders = pd.read_csv(ROOT / 'reorder_recommendations.csv')
     df = demand.merge(inventory, on=['week_start','part_id'], validate='one_to_one').merge(parts,on='part_id',validate='many_to_one')
     df['available_inventory'] = df.stock_on_hand + df.replenishment
     df['units_fulfilled'] = np.minimum(df.available_inventory, df.units_demanded)
