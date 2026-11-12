@@ -4,7 +4,7 @@ Interactive Demand Forecasting & Inventory Decision Support Dashboard
 
 From Data Analysis to Business Decisions
 
-🔗 Live Interactive Dashboard
+🔗 Live Interactive Dashboard：https://ev-inventory-intelligence-mnlyd4l9nusuarwkrawwup.streamlit.app/
 
 ⸻
 
