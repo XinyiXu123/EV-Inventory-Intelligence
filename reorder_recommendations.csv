@@ -1,0 +1,25 @@
+part_id,part_name,category,current_stock,forecasted_weekly_demand,lead_time_days,safety_stock,reorder_point,recommended_order_quantity,recommendation
+P001,Battery Module A,Battery System,30,7,21,8,29,0,Adequate - monitor
+P002,Battery Cooling Plate,Battery System,0,19,14,12,50,69,Order now - high stockout risk
+P003,Battery Management Sensor,Battery System,21,6,14,6,18,0,Adequate - monitor
+P004,Charging Port Assembly,Charging System,15,22,21,17,83,90,Order now - high stockout risk
+P005,AC Charging Cable,Cables and Connectors,60,24,7,11,35,0,Adequate - monitor
+P006,DC Fast-Charge Connector,Charging System,0,14,14,9,37,51,Order now - below reorder point
+P007,Brake Wear Sensor,Brake System,14,14,7,7,21,21,Order now - below reorder point
+P008,Regenerative Brake Control Unit,Brake System,45,10,21,18,48,13,Order now - high stockout risk
+P009,Coolant Pump,Thermal Management,10,17,14,12,46,53,Order now - below reorder point
+P010,Heat Exchanger,Thermal Management,50,6,21,11,29,0,Excess inventory - reduce stock
+P011,Cabin PTC Heater,Thermal Management,1,16,14,15,47,62,Order now - high stockout risk
+P012,Inverter Module,Power Electronics,20,2,28,8,16,0,Expensive low-demand - do not overstock
+P013,Power Converter,Power Electronics,13,4,21,5,17,8,Order now - below reorder point
+P014,Onboard Charger Unit,Power Electronics,3,7,28,9,37,41,Order now - below reorder point
+P015,Electric Motor Bearing Kit,Electric Motor,18,10,14,7,27,19,Order now - below reorder point
+P016,Motor Rotor Position Sensor,Sensors,0,36,14,22,94,130,Order now - high stockout risk
+P017,Wheel Speed Sensor,Sensors,49,23,7,10,33,0,Adequate - monitor
+P018,High-Voltage Cable Harness,Cables and Connectors,19,34,21,24,126,141,Order now - below reorder point
+P019,Low-Voltage Connector Set,Cables and Connectors,48,25,7,10,35,0,Adequate - monitor
+P020,Vehicle Control Unit,Control Units,19,1,28,6,10,0,Expensive low-demand - do not overstock
+P021,Thermal Expansion Valve,Thermal Management,34,17,7,10,27,0,Adequate - monitor
+P022,Battery Seal Kit,Battery System,16,18,7,8,26,28,Order now - below reorder point
+P023,Charge Door Actuator,Charging System,9,9,7,10,19,19,Order now - below reorder point
+P024,Auxiliary Cooling Fan,Thermal Management,27,8,14,8,24,0,Adequate - monitor
